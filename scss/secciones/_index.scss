@@ -1,0 +1,17 @@
+p {
+    color: rgb(123, 123, 160);
+}
+
+// 1.anidacion
+.container {
+    background-color: navy;
+    font-family:$font-prefe ;
+
+    .titulo {
+        color: rgb(240, 200, 200);
+    }
+
+    &:hover {
+        background-color: red;
+    }
+}
